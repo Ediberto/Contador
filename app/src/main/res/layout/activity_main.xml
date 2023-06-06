@@ -16,26 +16,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
     <TextView
+        style="@style/TitloFactory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:text="Uso do ViewModel Factory"
+        android:textSize="35dp"/>
+    <TextView
+        style="@style/Titlo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="220dp"
+        android:text="Sistema de incremento com o valor 1 a partir de um clique no botão"
+        android:textSize="24dp"/>
+    <TextView
         android:id="@+id/tv_contador"
         style="@style/Contador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="0"
-        android:textSize="32dp"
+        android:textSize="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
-
-    <TextView
-        android:id="@+id/tv_texto"
-        style="@style/Titlo3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="70dp"
-        android:text="Sistema de incremento com o valor 1 a partir de um clique no botão"
-        android:textSize="28dp"/>
 
     <Button
         android:id="@+id/btn_contador"

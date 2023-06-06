@@ -18,6 +18,11 @@
         <item name = "android:textColor">@color/brown_900</item>
         <item name = "android:textSize">18sp</item>
     </style>
+    <style name="TitloFactory" parent="Widget.AppCompat.ActionBar.TabView">
+        <item name = "android:fontFamily">@font/rubik_medium</item>
+        <item name = "android:textColor">@color/pink_500</item>
+        <item name = "android:textSize">18sp</item>
+    </style>
     <style name="Titlo3" parent="Widget.AppCompat.ActionBar.TabView">
         <item name = "android:fontFamily">@font/rubik_medium</item>
         <item name = "android:textColor">@color/black</item>
